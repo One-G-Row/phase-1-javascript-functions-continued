@@ -15,7 +15,7 @@ function wrapAdjective(character = "*") {
   return function (inner = "special") {
     return `You are ${character}${inner}${character}!`;
   };
-  result(`You are a ${character}hard worker${character}!`);
+
 }
 
 const specialFunction = wrapAdjective("||");
